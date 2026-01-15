@@ -1,45 +1,33 @@
-site_name: Documentación JTeller
+site_name: PLATAFORMA
 
 nav:
-  - Inicio: index.md
-  - Jteller:
-      - Operation-view:
-          - Inicio Operation-view: operation-view.md
-          - Dashboard:
-              - Dashboard Operativo: Dashboard Operativo.md
-          - Transacciones:
-              - Transacciones: transacciones.md
-              - Tablas de contenido 2.1: tablas-contenido-2-1.md
-      - Specs-View:
+    - Menu Pricipal: index.md
+    - Estándares: estandares/index.md
+    - Configuración: configuraciones/index.md
+    - Autorizaciones: autorizaciones/index.md
+    - Búsqueda de cliente: 
+          - Introducción: tablas-contenido-1.md
+          - Tipos de Búsqueda Disponibles:
+              - Búsqueda por Documento de Identificación: tablas-contenido-2.md
+              - Búsqueda por Código de cliente: tablas-contenido-2-1.md       
+              - Búsqueda por Nombres: tablas-contenido-2-1.md       
+              - Búsqueda por Producto: tablas-contenido-2-1.md       
+              - Criterios: tablas-contenido-2-1.md       
+    - Crear Cliente:
           - Introducción: tablas-contenido-1.md
           - Tablas de contenido 2:
               - Introducción: tablas-contenido-2.md
-              - Tablas de contenido 2.1: tablas-contenido-2-1.md
-      - Firmas:
+              - Tablas de contenido 2.1: tablas-contenido-2-1.md       
+    - Administrar Persona:
           - Introducción: tablas-contenido-1.md
           - Tablas de contenido 2:
               - Introducción: tablas-contenido-2.md
-              - Tablas de contenido 2.1: tablas-contenido-2-1.md
-      - Distribuidor:
-          - Introducción: tablas-contenido-1.md
-          - Tablas de contenido 2:
-              - Introducción: tablas-contenido-2.md
-              - Tablas de contenido 2.1: tablas-contenido-2-1.md
-  - Convenios:
-      - Funciones Generales:
-          - Introducción: tablas-contenido-1.md
-          - Tablas de contenido 2:
-              - Introducción: tablas-contenido-2.md
-              - Tablas de contenido 2.1: tablas-contenido-2-1.md      
-      - Operaciones:
-          - Introducción: tablas-contenido-1.md
-          - Tablas de contenido 2:
-              - Introducción: tablas-contenido-2.md
-              - Tablas de contenido 2.1: tablas-contenido-2-1.md                                          
+              - Tablas de contenido 2.1: tablas-contenido-2-1.md       
+
 
 theme:
   name: material
-  logo: assets/logo.png
+  logo: assets/logoByte.png
   # favicon: assets/favicon.ico
   palette:
     - scheme: slate

@@ -1,3 +1,10 @@
+---
+title: Configuraciones
+hide:
+  - toc
+
+---
+
 # **Configuraciones** {style="text-align: center;"}
 
 En esta sección se describe las configuraciones importantes que son utilizadas en la funcionalidad de la aplicación.

@@ -1,5 +1,11 @@
-# **Estándares** {style="text-align: center;"}
+---
+title: Estándares
+hide:
+  - toc
 
+---
+
+# **Estándares** {style="text-align: center;"}
 
 En esta sección se describe de forma general los estándares que son utilizados en la navegación de la aplicación.
 

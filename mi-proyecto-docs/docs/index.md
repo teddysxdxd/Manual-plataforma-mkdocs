@@ -3,7 +3,96 @@ title: Plataforma
 hide:
   - navigation
   - toc
+
 ---
+
+<div class="header-title">
+<h1>MANUAL PLATAFORMA</h1>
+<p>Documentación completa plataforma</p>
+</div>
+
+<div class="features-grid">
+
+<div class="feature-item" onclick="window.location.href='estandares/'">
+  <figure>
+    <img src="/assets/images/plataforma_estandar.png" alt="Icono para Estandares">
+    <figcaption>Estándares</figcaption>
+  </figure>
+  <div class="overlay">
+    <div class="overlay-text">Guías y estándares de calidad para el desarrollo y testing</div>
+  </div>
+</div>
+
+<div class="feature-item" onclick="window.location.href='configuraciones/'">
+  <figure>
+    <img src="/assets/images/plataforma_configuraciones.png" alt="Icono para Configuraciones">
+    <figcaption>Configuraciones</figcaption>
+  </figure>
+  <div class="overlay">
+    <div class="overlay-text">Configuración del sistema y parámetros de la plataforma</div>
+  </div>
+</div>
+
+<div class="feature-item" onclick="window.location.href='autorizaciones/'">
+  <figure>
+    <img src="/assets/images/plataforma_autorizaciones.png" alt="Icono para Autorizaciones">
+    <figcaption>Autorizaciones</figcaption>
+  </figure>
+  <div class="overlay">
+    <div class="overlay-text">Sistema de permisos y autorizaciones de usuarios</div>
+  </div>
+</div>
+
+<div class="feature-item" onclick="window.location.href='busqueda-clientes/'">
+  <figure>
+    <img src="/assets/images/buscar_cliente-platatorma4.png" alt="Icono para Búsqueda de Cliente">
+    <figcaption>Búsqueda de Cliente</figcaption>
+  </figure>
+  <div class="overlay">
+    <div class="overlay-text">Procedimientos para búsqueda y consulta de clientes</div>
+  </div>
+</div>
+
+<div class="feature-item" onclick="window.location.href='crear-cliente/'">
+  <figure>
+    <img src="/assets/images/crear_cliente-platatorma5.png" alt="Icono para Crear Cliente">
+    <figcaption>Crear Cliente</figcaption>
+  </figure>
+  <div class="overlay">
+    <div class="overlay-text">Flujos para creación de nuevos clientes en el sistema</div>
+  </div>
+</div>
+
+<div class="feature-item" onclick="window.location.href='administrar-persona/'">
+  <figure>
+    <img src="/assets/images/administrar_persona.png" alt="Icono para Administrar Persona">
+    <figcaption>Administrar Persona</figcaption>
+  </figure>
+  <div class="overlay">
+    <div class="overlay-text">Gestión de información personal en la plataforma</div>
+  </div>
+</div>
+
+</div>
+
+
+<script>
+// Añadir funcionalidad de clic a todos los feature items
+document.querySelectorAll('.feature-item').forEach(item => {
+  item.style.cursor = 'pointer';
+  item.addEventListener('click', function(e) {
+    if (!e.target.closest('a')) {
+      const link = this.getAttribute('onclick');
+      if (link) {
+        const url = link.match(/window\.location\.href='([^']+)'/)[1];
+        window.location.href = url;
+      }
+    }
+  });
+});
+</script>
+
+
 
 <style>
 /* Container for the grid of features */
@@ -170,93 +259,3 @@ hide:
   }
 }
 </style>
-
-<div class="logo-section">
-    <img src="/assets/images/titulo-platafroma.png" alt="Icono para Estandares">
-</div>
-
-<div class="header-title">
-<h1>MANUAL</h1>
-<p>Documentación completa plataforma</p>
-</div>
-
-<div class="features-grid">
-
-<div class="feature-item" onclick="window.location.href='estandares/'">
-  <figure>
-    <img src="/assets/images/plataforma_estandar.png" alt="Icono para Estandares">
-    <figcaption>Estándares</figcaption>
-  </figure>
-  <div class="overlay">
-    <div class="overlay-text">Guías y estándares de calidad para el desarrollo y testing</div>
-  </div>
-</div>
-
-<div class="feature-item" onclick="window.location.href='configuraciones/'">
-  <figure>
-    <img src="/assets/images/plataforma_configuraciones.png" alt="Icono para Configuraciones">
-    <figcaption>Configuraciones</figcaption>
-  </figure>
-  <div class="overlay">
-    <div class="overlay-text">Configuración del sistema y parámetros de la plataforma</div>
-  </div>
-</div>
-
-<div class="feature-item" onclick="window.location.href='autorizaciones/'">
-  <figure>
-    <img src="/assets/images/plataforma_autorizaciones.png" alt="Icono para Autorizaciones">
-    <figcaption>Autorizaciones</figcaption>
-  </figure>
-  <div class="overlay">
-    <div class="overlay-text">Sistema de permisos y autorizaciones de usuarios</div>
-  </div>
-</div>
-
-<div class="feature-item" onclick="window.location.href='busqueda-clientes/'">
-  <figure>
-    <img src="/assets/images/buscar_cliente-platatorma4.png" alt="Icono para Búsqueda de Cliente">
-    <figcaption>Búsqueda de Cliente</figcaption>
-  </figure>
-  <div class="overlay">
-    <div class="overlay-text">Procedimientos para búsqueda y consulta de clientes</div>
-  </div>
-</div>
-
-<div class="feature-item" onclick="window.location.href='crear-cliente/'">
-  <figure>
-    <img src="/assets/images/crear_cliente-platatorma5.png" alt="Icono para Crear Cliente">
-    <figcaption>Crear Cliente</figcaption>
-  </figure>
-  <div class="overlay">
-    <div class="overlay-text">Flujos para creación de nuevos clientes en el sistema</div>
-  </div>
-</div>
-
-<div class="feature-item" onclick="window.location.href='administrar-persona/'">
-  <figure>
-    <img src="/assets/images/administrar_persona.png" alt="Icono para Administrar Persona">
-    <figcaption>Administrar Persona</figcaption>
-  </figure>
-  <div class="overlay">
-    <div class="overlay-text">Gestión de información personal en la plataforma</div>
-  </div>
-</div>
-
-</div>
-
-
-<script>
-// Añadir funcionalidad de clic a todos los feature items
-document.querySelectorAll('.feature-item').forEach(item => {
-  item.style.cursor = 'pointer';
-  item.addEventListener('click', function(e) {
-    if (!e.target.closest('a')) {
-      const link = this.getAttribute('onclick');
-      if (link) {
-        const url = link.match(/window\.location\.href='([^']+)'/)[1];
-        window.location.href = url;
-      }
-    }
-  });
-});
-</script>

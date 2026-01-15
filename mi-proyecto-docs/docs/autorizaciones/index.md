@@ -1,3 +1,10 @@
+---
+title: Autorizaciones
+hide:
+  - toc
+
+---
+
 # **Autorizaciones** {style="text-align: center;"}
 
 En varias opciones del sistema, dependiendo de las operaciones que se estén realizando, puede ser requerida la autorización con credenciales de otro usuario o del mismo para permitir que continue con la operación, siempre que tenga los permisos en Keycloak para aprobar la autorización requerida.
