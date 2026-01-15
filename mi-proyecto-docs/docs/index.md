@@ -1,5 +1,5 @@
 ---
-title: Plataforma 
+title: Plataforma – Base conocimiento QA
 hide:
   - navigation
   - toc
@@ -61,7 +61,7 @@ hide:
   font-size: 1.1em;
   color: #333;
   padding: 0 10px;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 /* Styling for the overlay */
@@ -172,19 +172,19 @@ hide:
 </style>
 
 <div class="logo-section">
-    <img src="/assets/images/titulo-platafroma.png" alt="Icono para Estandares">
+![plataforma](assets/images/titulo-plataforma.png)
 </div>
 
 <div class="header-title">
-<h1>MANUAL</h1>
-<p>Documentación completa plataforma</p>
+<h1>Base conocimiento QA</h1>
+<p>Documentación completa de la plataforma para el equipo de Quality Assurance</p>
 </div>
 
 <div class="features-grid">
 
 <div class="feature-item" onclick="window.location.href='estandares/'">
   <figure>
-    <img src="/assets/images/plataforma_estandar.png" alt="Icono para Estandares">
+    <img src="assets/images/plataforma_estandar.png" alt="Icono para Estandares">
     <figcaption>Estándares</figcaption>
   </figure>
   <div class="overlay">
@@ -194,7 +194,7 @@ hide:
 
 <div class="feature-item" onclick="window.location.href='configuraciones/'">
   <figure>
-    <img src="/assets/images/plataforma_configuraciones.png" alt="Icono para Configuraciones">
+    <img src="assets/images/plataforma_configuraciones.png" alt="Icono para Configuraciones">
     <figcaption>Configuraciones</figcaption>
   </figure>
   <div class="overlay">
@@ -204,7 +204,7 @@ hide:
 
 <div class="feature-item" onclick="window.location.href='autorizaciones/'">
   <figure>
-    <img src="/assets/images/plataforma_autorizaciones.png" alt="Icono para Autorizaciones">
+    <img src="assets/images/plataforma_autorizaciones.png" alt="Icono para Autorizaciones">
     <figcaption>Autorizaciones</figcaption>
   </figure>
   <div class="overlay">
@@ -212,9 +212,9 @@ hide:
   </div>
 </div>
 
-<div class="feature-item" onclick="window.location.href='busqueda-clientes/'">
+<div class="feature-item" onclick="window.location.href='busqueda-clientes/busqueda-clientes/'">
   <figure>
-    <img src="/assets/images/buscar_cliente-platatorma4.png" alt="Icono para Búsqueda de Cliente">
+    <img src="assets/images/buscar_cliente-platatorma4.png" alt="Icono para Búsqueda de Cliente">
     <figcaption>Búsqueda de Cliente</figcaption>
   </figure>
   <div class="overlay">
@@ -222,9 +222,9 @@ hide:
   </div>
 </div>
 
-<div class="feature-item" onclick="window.location.href='crear-cliente/'">
+<div class="feature-item" onclick="window.location.href='crear-cliente/crear-cliente/'">
   <figure>
-    <img src="/assets/images/crear_cliente-platatorma5.png" alt="Icono para Crear Cliente">
+    <img src="assets/images/crear_cliente-platatorma5.png" alt="Icono para Crear Cliente">
     <figcaption>Crear Cliente</figcaption>
   </figure>
   <div class="overlay">
@@ -234,7 +234,7 @@ hide:
 
 <div class="feature-item" onclick="window.location.href='administrar-persona/'">
   <figure>
-    <img src="/assets/images/administrar_persona.png" alt="Icono para Administrar Persona">
+    <img src="assets/images/administrar_persona.png" alt="Icono para Administrar Persona">
     <figcaption>Administrar Persona</figcaption>
   </figure>
   <div class="overlay">
@@ -244,6 +244,9 @@ hide:
 
 </div>
 
+<div class="back-link">
+<a href="#" onclick="history.back(); return false;">← Volver a Página Anterior</a>
+</div>
 
 <script>
 // Añadir funcionalidad de clic a todos los feature items
