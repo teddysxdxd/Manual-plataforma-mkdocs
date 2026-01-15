@@ -8,12 +8,12 @@ La cantidad de pasos y datos solicitados para crear una persona son diferentes d
 * [Junta Directiva - Persona Jurídica](junta_directiva.md)
 * [Representante Legal - Persona Jurídica](representante_legal.md)
 * [Perfil Económico - Persona Jurídica](perfil_economico.md)
-* [Dirección - Persona Jurídica](direccion.md)
-* [Contacto - Persona Jurídica](contacto.md)
-* [FATCA - Persona Jurídica](fatca.md)
-* [Referencias - Persona Jurídica](referencias.md)
-* [Digitalización de Documentos - Persona Jurídica](digitalizacion_de_doc.md)
-* [Cliente Finalizado - Persona Jurídica](cliente_finalizado.md)
+* [Dirección - Persona Jurídica](direccion_persona_juridica.md)
+* [Contacto - Persona Jurídica](contacto_persona_juridica.md)
+* [FATCA - Persona Jurídica](fatca_persona_juridica.md)
+* [Referencias - Persona Jurídica](referencias_persona_juridica.md)
+* [Digitalización de Documentos - Persona Jurídica](digitalizacion_de_documentos_persona_juridica.md)
+* [Cliente Finalizado - Persona Jurídica](cliente_finalizado_persona_juridica.md)
 
 ---
 
