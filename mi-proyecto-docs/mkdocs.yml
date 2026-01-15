@@ -1,1 +1,98 @@
-site_name: Byte-Plataforma
+site_name: Documentación JTeller
+nav:
+  - Inicio: index.md
+  - Jteller:
+      - Operation-view:
+          - Inicio Operation-view: operation-view.md
+          - Dashboard:
+              - Dashboard Operativo: Dashboard Operativo.md
+              #- Tablas de contenido 2.1: tablas-contenido-2-1.md
+              
+          - Transacciones:
+              - Transacciones:  transacciones.md
+              - Tablas de contenido 2.1:  tablas-contenido-2-1.md
+      - Specs-View:
+          - Introducción:  tablas-contenido-1.md
+          - Tablas de contenido 2:
+              - Introducción:  tablas-contenido-2.md
+              - Tablas de contenido 2.1:  tablas-contenido-2-1.md
+      - Firmas:
+          - Introducción:  tablas-contenido-1.md
+          - Tablas de contenido 2:
+              - Introducción:  tablas-contenido-2.md
+              - Tablas de contenido 2.1:  tablas-contenido-2-1.md
+      - Distribuidor:
+          - Introducción:  tablas-contenido-1.md
+          - Tablas de contenido 2:
+              - Introducción:  tablas-contenido-2.md
+              - Tablas de contenido 2.1:  tablas-contenido-2-1.md
+  - Convenios:
+      - Funciones Generales:
+          - Introducción:  tablas-contenido-1.md
+          - Tablas de contenido 2:
+              - Introducción:  tablas-contenido-2.md
+              - Tablas de contenido 2.1:  tablas-contenido-2-1.md      
+      - Operaciones:
+          - Introducción:  tablas-contenido-1.md
+          - Tablas de contenido 2:
+              - Introducción:  tablas-contenido-2.md
+              - Tablas de contenido 2.1:  tablas-contenido-2-1.md                         
+                                                          
+theme:
+  name: material
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: green
+      accent: deep purple
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: blue
+      accent: deep orange
+
+  font:
+    text: Fancy
+
+  logo: assets/logo.png
+  #favicon: assets/favicon.ico
+
+  icon:
+    logo: fontawesome/solid/w
+
+  features:
+    # Actívalo si quieres menú expandible bonito
+    - navigation.sections
+    #- navigation.tabs
+    #- navigation.top
+    #- content.code.copy
+    #- search.suggest
+    #- search.highlight
+
+copyright: "© 2024 Byte"
+
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra_css:
+  - stylesheets/extra.css
