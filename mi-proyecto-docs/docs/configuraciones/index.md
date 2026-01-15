@@ -125,7 +125,7 @@ Los mensajes y textos mostrados en la aplicación están configurados en un arch
 [← Volver a Menú plataforma](../index.md)
 
 <style>
-  /* Estilos específicos para esta página */
+  /* Estilos específicos para Autorizaciones */
   .md-typeset h1 {
     color: #2d5490;
     border-bottom: 3px solid #2d5490;
@@ -134,52 +134,56 @@ Los mensajes y textos mostrados en la aplicación están configurados en un arch
   
   .md-typeset h2 {
     color: #3a6bc0;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
     padding-top: 1rem;
-    border-top: 1px solid #eee;
+    border-top: 2px solid #eee;
   }
   
-  .md-typeset table:not([class]) {
-    font-size: 0.85rem;
-    border-collapse: collapse;
-    margin: 1.5em 0;
-    width: 100%;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  }
-  
-  .md-typeset table:not([class]) th {
-    background-color: #2d5490;
-    color: white;
-    font-weight: bold;
-    text-align: left;
-    padding: 12px 15px;
-  }
-  
-  .md-typeset table:not([class]) td {
-    padding: 10px 15px;
-    border: 1px solid #ddd;
-    vertical-align: top;
-  }
-  
-  .md-typeset table:not([class]) tr:nth-child(even) {
-    background-color: #f9f9f9;
-  }
-  
-  .md-typeset table:not([class]) tr:hover {
-    background-color: #f0f7ff;
+  .md-typeset h3 {
+    color: #4a7cd0;
+    margin-top: 1.8rem;
+    padding-left: 1rem;
+    border-left: 4px solid #2d5490;
   }
   
   .md-typeset img {
     display: block;
     margin: 2em auto;
-    border-radius: 5px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
     max-width: 100%;
     height: auto;
+    border: 1px solid #ddd;
   }
   
   .md-typeset strong {
     color: #2d5490;
     font-size: 1.1em;
+    background-color: #f0f7ff;
+    padding: 2px 6px;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 0.5em 0;
+  }
+  
+  /* Estilo para secciones ACEPTAR/RECHAZAR/CANCELAR */
+  .md-typeset h3 + p + strong {
+    font-size: 1.2em;
+    padding: 8px 15px;
+    margin: 1.5em 0 1em 0;
+    border-left: 5px solid #2d5490;
+  }
+  
+  /* Mejorar legibilidad de párrafos */
+  .md-typeset p {
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 1.2em;
+  }
+  
+  /* Estilo para imágenes con ancho específico */
+  .md-typeset img[width="400"] {
+    max-width: 400px;
+    width: 100%;
   }
 </style>

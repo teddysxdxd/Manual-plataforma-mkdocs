@@ -76,51 +76,65 @@ El sistema realiza validaciones en listas de cautela utilizando el documento de 
 [← Volver a Menú plataforma](../index.md)
 
 <style>
-  /* Estilos para esta página específica */
-  .md-typeset table:not([class]) {
-    font-size: 0.9rem;
-    border-collapse: collapse;
-    margin: 1.5em 0;
-    width: 100%;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  /* Estilos específicos para Autorizaciones */
+  .md-typeset h1 {
+    color: #2d5490;
+    border-bottom: 3px solid #2d5490;
+    padding-bottom: 0.5rem;
   }
   
-  .md-typeset table:not([class]) th {
-    background-color: #2d5490;
-    color: white;
-    font-weight: bold;
-    text-align: center;
-    padding: 12px 15px;
+  .md-typeset h2 {
+    color: #3a6bc0;
+    margin-top: 2.5rem;
+    padding-top: 1rem;
+    border-top: 2px solid #eee;
   }
   
-  .md-typeset table:not([class]) td {
-    padding: 10px 15px;
-    border: 1px solid #ddd;
-    vertical-align: middle;
-  }
-  
-  .md-typeset table:not([class]) td:last-child {
-    text-align: center;
-    width: 80px;
+  .md-typeset h3 {
+    color: #4a7cd0;
+    margin-top: 1.8rem;
+    padding-left: 1rem;
+    border-left: 4px solid #2d5490;
   }
   
   .md-typeset img {
     display: block;
-    margin: 1.5em auto;
-    border-radius: 5px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+    margin: 2em auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
     max-width: 100%;
     height: auto;
+    border: 1px solid #ddd;
   }
   
-  .md-typeset h3 {
-    margin-top: 1.5em;
-    padding-top: 0.5em;
-    border-top: 1px solid #eee;
+  .md-typeset strong {
+    color: #2d5490;
+    font-size: 1.1em;
+    background-color: #f0f7ff;
+    padding: 2px 6px;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 0.5em 0;
   }
   
-  .md-typeset h4 {
-    color: #3a6bc0;
-    margin-top: 1.2em;
+  /* Estilo para secciones ACEPTAR/RECHAZAR/CANCELAR */
+  .md-typeset h3 + p + strong {
+    font-size: 1.2em;
+    padding: 8px 15px;
+    margin: 1.5em 0 1em 0;
+    border-left: 5px solid #2d5490;
+  }
+  
+  /* Mejorar legibilidad de párrafos */
+  .md-typeset p {
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 1.2em;
+  }
+  
+  /* Estilo para imágenes con ancho específico */
+  .md-typeset img[width="400"] {
+    max-width: 400px;
+    width: 100%;
   }
 </style>
