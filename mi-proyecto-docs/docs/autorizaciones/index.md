@@ -2,7 +2,6 @@
 title: Autorizaciones
 hide:
   - toc
-
 ---
 
 # **Autorizaciones** {style="text-align: center;"}

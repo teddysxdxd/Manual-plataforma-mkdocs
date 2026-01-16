@@ -1,34 +1,12 @@
 site_name: PLATAFORMA
-
-nav:
-    - Menu Pricipal: index.md
-    - Estándares: estandares/index.md
-    - Configuración: configuraciones/index.md
-    - Autorizaciones: autorizaciones/index.md
-    - Búsqueda de cliente: 
-          - Introducción: tablas-contenido-1.md
-          - Tipos de Búsqueda Disponibles:
-              - Búsqueda por Documento de Identificación: tablas-contenido-2.md
-              - Búsqueda por Código de cliente: tablas-contenido-2-1.md       
-              - Búsqueda por Nombres: tablas-contenido-2-1.md       
-              - Búsqueda por Producto: tablas-contenido-2-1.md       
-              - Criterios: tablas-contenido-2-1.md       
-    - Crear Cliente:
-          - Introducción: tablas-contenido-1.md
-          - Tablas de contenido 2:
-              - Introducción: tablas-contenido-2.md
-              - Tablas de contenido 2.1: tablas-contenido-2-1.md       
-    - Administrar Persona:
-          - Introducción: tablas-contenido-1.md
-          - Tablas de contenido 2:
-              - Introducción: tablas-contenido-2.md
-              - Tablas de contenido 2.1: tablas-contenido-2-1.md       
-
+site_url: http://172.16.10.191:8000 
+site_author: Miguel y Teddy
+site_description: Documentación Manual de PLATAFORMA
 
 theme:
   name: material
+  language: es
   logo: assets/logoByte.png
-  # favicon: assets/favicon.ico
   palette:
     - scheme: slate
       primary: green
@@ -50,7 +28,7 @@ theme:
     - navigation.expand
     - content.code.copy # Muy útil para manuales técnicos
 
-copyright: "© 2024 Byte"
+copyright: "© 2026 Byte"
 
 markdown_extensions:
   - admonition
@@ -69,3 +47,28 @@ markdown_extensions:
 
 extra_css:
   - stylesheets/extra.css
+
+nav:
+  - Menu Pricipal: index.md
+  - Estándares: estandares/index.md
+  - Configuración: configuraciones/index.md
+  - Autorizaciones: autorizaciones/index.md
+  - Búsqueda de cliente: 
+        - Introducción Busqueda de cliete: busqueda-clientes/busqueda-clientes.md
+        - Tipos de Búsqueda Disponibles:
+            - Búsqueda por Documento de Identificación: busqueda-clientes/busqueda-documento.md
+            - Búsqueda por Código de cliente: busqueda-clientes/busqueda-codigo.md       
+            - Búsqueda por Nombres: busqueda-clientes/busqueda-nombres.md       
+            - Búsqueda por Producto: busqueda-clientes/busqueda-producto.md       
+            - Criterios: busqueda-clientes/criterios.md       
+  - Crear Cliente:
+        - Introducción Crear Cliente: crear-cliente/crear-cliente.md
+        - Tipos de Creacion:
+            - Crear cliente - Persona Natural: crear-cliente/crear-cliente-natural.md
+            - Crear cliente - Persona Jurídica: crear-cliente/crear-cliente-juridica.md  
+            - Crear Usuario: crear-cliente/crear-usuario.md       
+  - Administrar Persona:
+        - Introducción Administrar Persona: tablas-contenido-1.md
+        - Tablas de contenido 2:
+            - Introducción: tablas-contenido-2.md
+            - Tablas de contenido 2.1: tablas-contenido-2-1.md       
