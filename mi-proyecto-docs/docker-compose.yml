@@ -1,0 +1,16 @@
+services:
+  plataforma:
+    image: squidfunk/mkdocs-material:latest
+    container_name: plataforma-docs
+    ports:
+      - "8000:8000"
+    volumes:
+      # Opción 1: Montar TODO el proyecto
+      - ./:/docs
+      
+      # Opción 2: Montar archivos específicos
+      # - ./docs:/docs
+      # - ./mkdocs.yml:/docs/mkdocs.yml
+      
+    working_dir: /docs
+    command: ["serve", "--dev-addr=0.0.0.0:8000"]

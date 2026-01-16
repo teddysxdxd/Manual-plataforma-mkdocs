@@ -2,7 +2,6 @@
 title: Estándares
 hide:
   - toc
-
 ---
 
 # **Estándares** {style="text-align: center;"}
